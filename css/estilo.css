@@ -15,3 +15,9 @@ p, a, h4 {
 h4{
 	text-shadow: -3px 1px 6px rgba(0, 0, 0, 0.63);
 }
+.input-field{
+	width: 330px;
+}
+.row{
+	text-align: -webkit-center;
+}
