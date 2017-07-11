@@ -1,0 +1,17 @@
+body{
+	background: red;
+	background: -webkit-linear-gradient(left top, red, rgb(159, 255, 0));
+	background: -o-linear-gradient(bottom right, red, rgb(159, 255, 0));
+	background: -moz-linear-gradient(bottom right, red, rgb(159, 255, 0));
+	background: linear-gradient(to bottom right, red, rgba(243, 33, 0, 0.79));
+	min-height: 100vh;
+}
+nav .brand-logo{
+	font-size: 1.1rem !important;
+}
+p, a, h4 {
+	color: white !important;
+}
+h4{
+	text-shadow: -3px 1px 6px rgba(0, 0, 0, 0.63);
+}
