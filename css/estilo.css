@@ -18,6 +18,8 @@ h4{
 .input-field{
 	width: 330px;
 }
-.row{
-	text-align: -webkit-center;
+.center-align{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
