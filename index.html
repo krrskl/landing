@@ -12,7 +12,7 @@
 <body>
 	<nav>
 		<div class="nav-wrapper red">
-		  <h3 class="brand-logo center">SIGNIFICADO DE TU NOMBRE</h3>
+			<h3 class="brand-logo center">SIGNIFICADO DE TU NOMBRE</h3>
 		</div>
 	</nav>
 	<div class="container">
@@ -21,25 +21,28 @@
 			<br>
 			<br>
 			<div class="row">
-		        <div class="input-field white-text">
-		          <input type="text" maxlength="9" class="validate">
-		          <label class="white-text" for="name">Ingrese su nombre: </label>
-		        </div>
-		        	<div class="switch">
-					    <label class="white-text">
-					      HOMBRE
-					      <input type="checkbox">
-					      <span class="lever"></span>
-					      MUJER
-					    </label>
-			  		</div>
-			  	<br>
-			  	<br>
-			  	<a class="btn btn-floating btn-large pulse"><i class="material-icons">send</i></a>
-	      </div>
+				<form class="nombre" method="POST" action="action.php">
+					<div class="input-field white-text">
+						<input type="text" maxlength="9" class="validate">
+						<label class="white-text" for="name">Ingrese su nombre: </label>
+					</div>
+					<div class="switch">
+						<label class="white-text">
+							HOMBRE
+							<input type="checkbox">
+							<span class="lever"></span>
+							MUJER
+						</label>
+					</div>
+					<br>
+					<br>
+					<a id="submit" class="btn btn-floating btn-large pulse"><i class="material-icons">send</i></a>
+				</form>
+			</div>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
