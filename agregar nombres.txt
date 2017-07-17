@@ -1,0 +1,11 @@
+insert into palabras(contenido, genero) values("dulce", "m")
+/*m = mujer
+  h= hombre */
+
+
+/*para crear la bd*/
+CREATE SCHEMA `palabras`;
+CREATE TABLE `palabras`.`palabras` (
+ `contenido` VARCHAR(45) NOT NULL,
+ `genero` VARCHAR(45) NOT NULL);
+
