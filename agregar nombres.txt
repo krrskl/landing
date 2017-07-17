@@ -6,6 +6,9 @@ insert into palabras(contenido, genero) values("dulce", "m")
 /*para crear la bd*/
 CREATE SCHEMA `palabras`;
 CREATE TABLE `palabras`.`palabras` (
+ `idPalabras` INT NOT NULL,
  `contenido` VARCHAR(45) NOT NULL,
- `genero` VARCHAR(45) NOT NULL);
+ `genero` VARCHAR(45) NOT NULL),
+ PRIMARY KEY (`idPalabras`));
+
 
