@@ -70,7 +70,7 @@ function sendToCanvas( ob ){
 
 // DO IT! /////////////////
 sendToCanvas({
-	image      : "nombre.png",
+	image      : "landing/nombre.png",
 	text       : "",
 	fontFamily : "Arial",
 	fontWeight : "bold",
